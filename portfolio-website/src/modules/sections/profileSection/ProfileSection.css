@@ -1,0 +1,17 @@
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  object-fit: cover;
+  display: block;
+  margin-left: 20%;
+}
+
+.name {
+  font-family: "Rosehot", sans-serif;
+  letter-spacing: 3px;
+  line-height: 1;
+  color: #FCE8C3;
+  margin-top: 20px;
+  font-weight: 600;
+}

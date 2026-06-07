@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 100vh;
+  margin-left: 6%;
+  margin-top: 5%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: #FFF7EB;
+  font-size: 18px;
+  transition: 0.3s;
+  width: fit-content;
+}
+
+.tabs a:hover {
+  color: black;
+  transform: translateY(7px);
+}

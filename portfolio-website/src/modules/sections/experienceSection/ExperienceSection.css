@@ -1,0 +1,38 @@
+.date {
+  text-align: left;
+}
+
+.experience {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  display: flex;
+}
+
+.experience:hover {
+  background-color: rgba(142, 138, 138, 0.16);
+  transform: translateX(8px);
+}
+
+.badge {
+  border-radius: 999px;
+
+  background-color: rgba(0, 0, 0, 0.08);
+
+  border: 2px solid rgba(143, 136, 136, 0.663);
+
+  padding: 8px 16px;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 14px;
+}
+.title{
+  font-style: oblique;
+}
+.view {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 450;
+}

@@ -1,0 +1,63 @@
+.blog-card {
+  display: block;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.blog-card:hover {
+  background-color: rgba(142, 138, 138, 0.16);
+  transform: translateX(8px);
+}
+
+.blog-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+.blog-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-date {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: white;
+}
+
+.calendar-icon {
+  font-size: 13px;
+}
+
+.title{
+  font-style: oblique;
+}
+.view {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  transition: 0.3s;
+  width: fit-content;
+  position: relative;
+  z-index: 10;
+}
+
+.view:hover {
+  color: #000000;
+  transform: translateX(8px);
+  cursor: pointer;
+}

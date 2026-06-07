@@ -1,0 +1,48 @@
+.project {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px;
+  border-radius: 12px;
+  transition: 0.3s;
+  display: flex;
+}
+
+.project:hover {
+  background-color: rgba(142, 138, 138, 0.16);
+  transform: translateX(8px);
+}
+.badge {
+  border-radius: 999px;
+
+  background-color: rgba(0, 0, 0, 0.08);
+
+  border: 2px solid rgba(143, 136, 136, 0.663);
+
+  padding: 8px 16px;
+  font-style: oblique;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.title{
+  font-style: oblique;
+}
+.github-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.github-link:hover {
+  color: #000000;
+  transform: translateY(-6px);
+}
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+}
