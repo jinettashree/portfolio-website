@@ -109,7 +109,60 @@ section {
 @media (hover: hover) {
   .project:hover,
   .experience:hover,
-  .blog-card:hovr{
+  .blog-card:hovr {
     transform: translateX(8px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .profile-image {
+    width: 140px;
+    height: 140px;
+    margin: auto;
+  }
+
+  .project,
+  .experience {
+    flex-direction: column;
+  }
+
+  .footer {
+    margin: 30px 0;
+    justify-content: center;
+  }
+
+  .tabs {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .landing-name {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    text-align: left;
   }
 }
