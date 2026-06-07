@@ -7,15 +7,13 @@
 }
 
 .footer a {
-  color: #FCE8C3;
-  
+  color: #fce8c3;
 
+  &:hover {
+    color: black;
+    transform: translateY(-7px);
+  }
   font-size: 24px;
 
   transition: 0.3s;
-}
-
-.footer a:hover {
-  color: black;
-  transform: translateY(-7px);
 }

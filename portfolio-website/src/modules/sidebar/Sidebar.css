@@ -12,7 +12,7 @@ body {
   top: 0;
   width: 40%;
   height: 100vh;
-  margin-left: 6%;
+  margin-left: 4%;
   margin-top: 5%;
   box-sizing: border-box;
   display: flex;
@@ -23,13 +23,15 @@ body {
 .tabs {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 .tabs a {
   text-decoration: none;
-  color: #FFF7EB;
-  font-size: 18px;
+  color: #fff7eb;
+  font-size: 16px;
   transition: 0.3s;
   width: fit-content;
 }
