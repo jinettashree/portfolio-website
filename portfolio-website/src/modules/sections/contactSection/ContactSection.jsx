@@ -25,7 +25,7 @@ const ContactSection = () => {
         <FaLinkedin />
       </a>
 
-      <a href="jinettashree@gmail.com">
+      <a href="mailto:jinettashree@gmail.com" target="_blank" rel="noreferrer">
         <FaEnvelope />
       </a>
 

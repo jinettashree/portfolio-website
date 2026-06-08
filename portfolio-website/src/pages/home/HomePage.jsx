@@ -30,9 +30,8 @@ const Home = () => {
       )}
 
       {isMobile && (
-        <div className="mobile-header" id="contact">
+        <div className="mobile-header">
           <ProfileSection />
-          <ContactSection />
         </div>
       )}
 
@@ -81,7 +80,7 @@ const Home = () => {
             <span>Blogs</span>
           </a>
           <a href="#contact">
-            <i className="ti ti-writing"></i>
+            <i className="ti ti-address-book"></i>
             <span>Contact</span>
           </a>
         </nav>
