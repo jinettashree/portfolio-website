@@ -8,37 +8,73 @@ import BlogsSection from "../../modules/sections/blogsSection/BlogsSection";
 import FooterSection from "../../modules/sections/footerSection/FooterSection";
 import ProjectsSection from "../../modules/sections/projectsSection/ProjectsSection";
 
+import { useState, useEffect } from "react";
+
 const Home = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="container">
-      <div className="sidebar">
-        <ProfileSection />
-        <Sidebar />
-        <FooterSection />
-      </div>
+      {!isMobile && (
+        <div className="sidebar desktop-sidebar">
+          <ProfileSection />
+          <Sidebar />
+          <FooterSection />
+        </div>
+      )}
+
+      {isMobile && (
+        <div className="mobile-header">
+          <ProfileSection />
+          <FooterSection />
+        </div>
+      )}
 
       <div className="content">
         <section id="about">
           <AboutSection />
         </section>
-
         <section id="experience">
           <ExperienceSection />
         </section>
-
         <section id="projects">
           <ProjectsSection />
         </section>
-
         <section id="blogs">
           <BlogsSection />
         </section>
-
         <p className="copyright">
           © 2026 Jinetta Shree Gokul Rajan. All rights reserved. | React.js •
           CSS • Bootstrap • Vercel
         </p>
       </div>
+
+      {isMobile && (
+        <nav className="mobile-bottom-nav">
+          <a href="#about">
+            <i className="ti ti-user"></i>
+            <span>About</span>
+          </a>
+          <a href="#experience">
+            <i className="ti ti-briefcase"></i>
+            <span>Exp</span>
+          </a>
+          <a href="#projects">
+            <i className="ti ti-code"></i>
+            <span>Projects</span>
+          </a>
+          <a href="#blogs">
+            <i className="ti ti-writing"></i>
+            <span>Blogs</span>
+          </a>
+        </nav>
+      )}
     </div>
   );
 };

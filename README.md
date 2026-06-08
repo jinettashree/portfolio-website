@@ -1,148 +1,137 @@
-# Personal Portfolio Website
+# Jinetta Shree Gokul Rajan — Portfolio Website
 
-A modern and responsive developer portfolio website built using React.js.
-The portfolio showcases my projects, technical blogs, experience, skills, and social platforms with smooth animations and a premium UI design.
+A clean, minimal personal portfolio website built with React.js, showcasing my journey as a Frontend Developer and Electronics & Communication Engineering student.
+
+🌐 **Live Site:** [portfolio-website-eta-ten-96.vercel.app](https://portfolio-website-eta-ten-96.vercel.app)
 
 ---
 
 ## Features
 
-* Fixed sidebar layout
-* Smooth page entrance animations using Framer Motion
-* Typing landing animation for introduction
-* Dynamic Medium blog integration
-* Project showcase with GitHub and live links
-* Reusable React components
-* Modern UI with custom fonts and gradient backgrounds
-* Hover interactions and animated transitions
+- Animated landing screen with typewriter effect
+- Fixed sidebar layout on desktop with scrollable content
+- Fully responsive mobile design with sticky bottom navigation
+- Sections: About, Experience, Projects, Blogs, Footer
+- Medium blog integration via RSS feed
+- Smooth scroll navigation
+- Hover animations throughout
 
 ---
 
 ## Tech Stack
 
-### Frontend
-
-* React.js
-* JavaScript
-* Bootstrap
-* CSS3
-
-### Libraries Used
-
-* Framer Motion
-* React Icons
-* React Type Animation
+| Technology           | Usage                       |
+| -------------------- | --------------------------- |
+| React.js             | UI framework                |
+| CSS3                 | Styling & responsive design |
+| Bootstrap            | Grid layout                 |
+| Framer Motion        | Landing screen animation    |
+| React Type Animation | Typewriter name effect      |
+| React Icons          | Social & UI icons           |
+| Vercel               | Deployment                  |
 
 ---
 
-## Sections Included
+## Project Structure
 
-* About
-* Experience
-* Projects
-* Blogs
-* Contact / Social Links
-
----
-
-## Blog Integration
-
-Blogs are fetched dynamically from my Medium profile using RSS feed integration and displayed directly inside the portfolio.
-
----
-
-## Projects Featured
-
-* Quiz Application
-* To-Do List Application
-* Single Page CV
-* Validation Form
-* React Hook Form Login System
-
-Each project includes:
-
-* Live Demo Link
-* GitHub Repository Link
-* Skills/Technologies Used
-
----
-
-## Animations
-
-* Typing intro animation
-* Smooth landing transitions
-* Hover effects
-* Framer Motion page animations
-
----
-
-## Folder Structure
-
-```bash
-src
-│
-├── assets
-│   ├──fonts
-│   ├──images
-├── modules
-│   ├── sections
-│   ├── sidebar
-│   └── ui
-├── pages
-│   ├──home
+```
+src/
+├── assets/
+│   ├── fonts/          # Rosehot custom font
+│   └── images/         # Profile image
+├── modules/
+│   ├── sidebar/
+│   │   ├── Sidebar.jsx
+│   │   └── Sidebar.css
+│   ├── sections/
+│   │   ├── profileSection/
+│   │   │   ├── ProfileSection.jsx
+│   │   │   └── ProfileSection.css
+│   │   ├── aboutSection/
+│   │   ├── experienceSection/
+│   │   ├── projectsSection/
+│   │   ├── blogsSection/
+│   │   └── footerSection/
+│   └── ui/
+│        └── sectionHeading/
+│           ├── SectionHeading.jsx
+│           └── SectionHeading.css
+├── pages/
+│   └── home/
+│       ├── HomePage.jsx
+│       └── Home.css
 ├── App.jsx
-└── main.jsx
+├── App.css
+└── index.css
 ```
 
 ---
 
-## Installation
+## Responsive Design
 
-Clone the repository:
+| Screen            | Layout                                                               |
+| ----------------- | -------------------------------------------------------------------- |
+| Desktop (> 768px) | Fixed left sidebar + scrollable right content                        |
+| Mobile (≤ 768px)  | Centered profile header + full width content + sticky bottom tab bar |
+
+---
+
+## Sections
+
+- **About** — Personal introduction and background
+- **Experience** — Work experience with skills badges
+- **Projects** — Projects with live links and GitHub links
+- **Blogs** — Fetched live from Medium via RSS feed
+- **Footer** — GitHub, LinkedIn, Email, Medium, Phone links
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or above)
+- npm
+
+### Installation
 
 ```bash
-git clone <repository-link>
-```
+# Clone the repository
+git clone https://github.com/jinettashree/portfolio-website.git
 
-Navigate into the project folder:
-
-```bash
+# Navigate into the project
 cd portfolio-website
-```
 
-Install dependencies:
-
-```bash
+# Install dependencies
 npm install
-```
 
-Run the development server:
-
-```bash
+# Start the development server
 npm run dev
 ```
 
----
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Future Improvements
+### Build for Production
 
-* Add project filtering
-* Add animations on scroll
-* Add downloadable resume section
-
----
-
-## Social Links
-
-* GitHub
-* LinkedIn
-* Medium
-* Email
+```bash
+npm run build
+```
 
 ---
 
-## Author
+## Deployment
 
-### Jinetta Shree Gokul Rajan
+This project is deployed on **Vercel**. Any push to the `main` branch automatically triggers a new deployment.
 
-Frontend Developer passionate about building modern, responsive, and user-friendly web applications using React.js and modern frontend technologies.
+---
+
+## Connect with Me
+
+- GitHub: [github.com/jinettashree](https://github.com/jinettashree)
+- LinkedIn: [linkedin.com/in/jinetta-shree-gokul-rajan-679577221](https://www.linkedin.com/in/jinetta-shree-gokul-rajan-679577221/)
+- Medium: [medium.com/@jinettashree](https://medium.com/@jinettashree)
+- Email: jinettashree@gmail.com
+
+---
+
+© 2026 Jinetta Shree Gokul Rajan. All rights reserved.

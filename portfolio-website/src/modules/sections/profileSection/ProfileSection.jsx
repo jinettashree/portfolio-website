@@ -8,7 +8,6 @@ const ProfileSection = () => {
         <img src={profileImage} alt="Profile" className="profile-image" />
       </div>
       <div>
-
         <h3 className="name">JINETTA SHREE GOKUL RAJAN</h3>
         <h4>Frontend Developer</h4>
       </div>

@@ -1,7 +1,5 @@
 .blog-card {
   display: block;
-  align-items: center;
-  gap: 20px;
   text-decoration: none;
   color: inherit;
   padding: 20px;
@@ -16,11 +14,10 @@
 }
 
 .blog-image {
-  width: 150px;
-  height: 100px;
+  width: 100%;
+  height: 90px;
   object-fit: cover;
   border-radius: 12px;
-  flex-shrink: 0;
 }
 
 .blog-content {
@@ -28,21 +25,23 @@
   flex-direction: column;
 }
 
+.blog-title {
+  font-style: oblique;
+}
+
 .blog-date {
   display: flex;
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  color: white;
+  color: rgba(255, 247, 235, 0.7);
+  margin-top: 6px;
 }
 
 .calendar-icon {
   font-size: 13px;
 }
 
-.title{
-  font-style: oblique;
-}
 .view {
   display: inline-flex;
   align-items: center;
@@ -52,12 +51,40 @@
   margin-top: 20px;
   transition: 0.3s;
   width: fit-content;
-  position: relative;
-  z-index: 10;
 }
 
 .view:hover {
   color: #000000;
   transform: translateX(8px);
-  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    padding: 14px 12px;
+  }
+
+  .blog-card:hover {
+    transform: none;
+  }
+
+  .blog-img-col {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+    margin-bottom: 10px;
+  }
+
+  .blog-content-col {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: none !important;
+  }
+
+  .blog-image {
+    height: 160px;
+  }
+
+  .blog-date {
+    font-size: 12px;
+  }
 }
