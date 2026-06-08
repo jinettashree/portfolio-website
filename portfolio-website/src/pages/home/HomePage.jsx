@@ -5,7 +5,7 @@ import "../../modules/sidebar/Sidebar.css";
 import AboutSection from "../../modules/sections/aboutSection/aboutSection";
 import ExperienceSection from "../../modules/sections/experienceSection/ExperienceSection";
 import BlogsSection from "../../modules/sections/blogsSection/BlogsSection";
-import FooterSection from "../../modules/sections/footerSection/FooterSection";
+import ContactSection from "../../modules/sections/contactSection/ContactSection";
 import ProjectsSection from "../../modules/sections/projectsSection/ProjectsSection";
 
 import { useState, useEffect } from "react";
@@ -25,14 +25,14 @@ const Home = () => {
         <div className="sidebar desktop-sidebar">
           <ProfileSection />
           <Sidebar />
-          <FooterSection />
+          <ContactSection />
         </div>
       )}
 
       {isMobile && (
-        <div className="mobile-header">
+        <div className="mobile-header" id="contact">
           <ProfileSection />
-          <FooterSection />
+          <ContactSection />
         </div>
       )}
 
@@ -49,6 +49,13 @@ const Home = () => {
         <section id="blogs">
           <BlogsSection />
         </section>
+
+        {isMobile && (
+          <section id="contact">
+            <ContactSection />
+          </section>
+        )}
+
         <p className="copyright">
           © 2026 Jinetta Shree Gokul Rajan. All rights reserved. | React.js •
           CSS • Bootstrap • Vercel
@@ -72,6 +79,10 @@ const Home = () => {
           <a href="#blogs">
             <i className="ti ti-writing"></i>
             <span>Blogs</span>
+          </a>
+          <a href="#contact">
+            <i className="ti ti-writing"></i>
+            <span>Contact</span>
           </a>
         </nav>
       )}

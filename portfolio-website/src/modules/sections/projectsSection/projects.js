@@ -55,7 +55,7 @@ export const projects = [
     duration: "November 2025",
 
     description:
-      "Developed a responsive single-page CV website showcasing professional profile, skills, education, projects, and contact information in a clean and structured layout. Focused on minimal UI design, responsive behavior. Enhanced frontend development skills by following learning roadmaps and building projects including a Single Page CV Website.",
+      "Developed a responsive single-page CV website showcasing professional profile, skills, education, projects, and contact information in a clean and structured layout. Focused on minimal UI design, responsive behavior. Enhanced frontend development skills by following  roadmaps and building projects including a Single Page CV Website.",
 
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Vercel"],
 
@@ -70,7 +70,7 @@ export const projects = [
     duration: "November 2025",
 
     description:
-      "Built a responsive form validation application with real-time input validation and error handling. Implemented user inputs such as email, password. Enhanced frontend development skills by following learning roadmaps and built Validation Application.",
+      "Built a responsive form validation application with real-time input validation and error handling. Implemented user inputs such as email, password. Enhanced frontend development skills by following  roadmaps and built Form Validation Application.",
 
     skills: ["React.js", "JavaScript", "CSS", "Form Validation", "Vercel"],
 

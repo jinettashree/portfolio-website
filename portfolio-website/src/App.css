@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  background: #4b3f35;
+  background: linear-gradient(135deg, #7d5340, #4b3f35);
   color: #fff7eb;
   font-family: "DM Sans", sans-serif;
   margin: 0;

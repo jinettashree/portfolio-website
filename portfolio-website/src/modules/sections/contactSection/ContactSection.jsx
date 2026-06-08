@@ -5,10 +5,10 @@ import {
   FaEnvelope,
   FaPhone,
 } from "react-icons/fa";
-import "./FooterSection.css";
-const FooterSection = () => {
+import "./contactSection.css";
+const ContactSection = () => {
   return (
-    <div className="footer">
+    <div className="contact">
       <a
         href="https://github.com/jinettashree"
         target="_blank"
@@ -44,4 +44,4 @@ const FooterSection = () => {
   );
 };
 
-export default FooterSection;
+export default ContactSection;
