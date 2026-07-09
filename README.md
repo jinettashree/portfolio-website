@@ -2,7 +2,7 @@
 
 A clean, minimal personal portfolio website built with React.js, showcasing my journey as a Frontend Developer and Electronics & Communication Engineering student.
 
-🌐 **Live Site:** [portfolio-website-eta-ten-96.vercel.app](https://portfolio-website-eta-ten-96.vercel.app)
+🌐 **Live Site:** [portfolio-website-eta-ten-96.vercel.app](https://jinettashree.vercel.app/).
 
 ---
 
