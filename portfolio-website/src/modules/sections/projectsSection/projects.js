@@ -1,5 +1,26 @@
 export const projects = [
   {
+    title: "Guard Track",
+
+    duration: "March 2026",
+
+    description:
+      "Developed a React-based admin dashboard developed for a security services company to manage employee records, shift assignments and client information. I was responsible for the frontend development,built reusable frontend with seamless REST API integration using Axios and efficient server-state management with TanStack Query.",
+    skills: [
+      "React.js",
+      "Axios",
+      "Tanstack Query",
+      "JavaScript",
+      "Tailwind CSS",
+      "Render",
+      "Vercel",
+    ],
+
+    liveLink: "https://guardtrack-ruby.vercel.app/",
+
+    githubLink: "https://github.com/cathrine100105/security-employee-management-system.git",
+  },
+  {
     title: "Login Form Application",
 
     duration: "March 2026",
