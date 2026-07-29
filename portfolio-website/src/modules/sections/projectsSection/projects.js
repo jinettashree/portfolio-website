@@ -5,7 +5,7 @@ export const projects = [
     duration: "March 2026",
 
     description:
-      "Developed a React-based admin dashboard developed for a security services company to manage employee records, shift assignments and client information. I was responsible for the frontend development,built reusable frontend with seamless REST API integration using Axios and efficient server-state management with TanStack Query.",
+      "PRIVATE CLIENT PROJECT. A modern employee management platform developed for a private security services company. Features secure authentication, employee management, responsive dashboards, and seamless REST API integration.",
     skills: [
       "React.js",
       "Axios",
@@ -14,11 +14,12 @@ export const projects = [
       "Tailwind CSS",
       "Render",
       "Vercel",
+      "Spring Boot",
+      "PostgreSQL(Supabase)",
     ],
 
-    liveLink: "https://guardtrack-ruby.vercel.app/",
-
-    githubLink: "https://github.com/cathrine100105/security-employee-management-system.git",
+    githubLink:
+      "https://github.com/cathrine100105/security-employee-management-system.git",
   },
   {
     title: "Login Form Application",
@@ -68,21 +69,6 @@ export const projects = [
     liveLink: "https://to-do-list-app-psi-three.vercel.app/",
 
     githubLink: "https://github.com/jinettashree/to-do-list-app.git",
-  },
-
-  {
-    title: "Single Page CV Website",
-
-    duration: "November 2025",
-
-    description:
-      "Developed a responsive single-page CV website showcasing professional profile, skills, education, projects, and contact information in a clean and structured layout. Focused on minimal UI design, responsive behavior. Enhanced frontend development skills by following  roadmaps and building projects including a Single Page CV Website.",
-
-    skills: ["HTML", "CSS", "JavaScript", "Responsive Design", "Vercel"],
-
-    liveLink: "https://single-page-cv-gray.vercel.app/",
-
-    githubLink: "https://github.com/jinettashree/Single-Page-CV",
   },
 
   {
