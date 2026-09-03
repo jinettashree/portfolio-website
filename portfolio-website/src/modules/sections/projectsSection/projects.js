@@ -1,8 +1,24 @@
 export const projects = [
   {
+    title: "SnapLink – URL Shortener",
+
+    duration: "August 2026",
+
+    description:
+      "A responsive full-stack URL shortening application built with React.js, Node.js, Express.js, and MongoDB. Features a clean and user-friendly interface for creating, managing, and sharing shortened URLs, with seamless redirection to original links. The application is fully responsive and optimized for desktop, tablet, and mobile devices.",
+
+    skills: [
+      "Reactjs", "Nodejs", "Expressjs", "MongoDB", "NanoID", "REST API", "Tailwind", "Render", "Vercel"
+    ],
+
+    liveLink: "https://snap-link-one.vercel.app/",
+
+    githubLink: "https://github.com/jinettashree/SnapLink",
+  },
+  {
     title: "Guard Track",
 
-    duration: "March 2026",
+    duration: "June 2026 - July 2026",
 
     description:
       "PRIVATE CLIENT PROJECT. A modern employee management platform developed for a private security services company. Features secure authentication, employee management, responsive dashboards, and seamless REST API integration.",
