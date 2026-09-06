@@ -4,6 +4,7 @@ import {
   FaMedium,
   FaEnvelope,
   FaPhone,
+  FaFileAlt
 } from "react-icons/fa";
 import "./ContactSection.css";
 const ContactSection = () => {
@@ -39,6 +40,14 @@ const ContactSection = () => {
 
       <a href="tel:+919345856256">
         <FaPhone />
+      </a>
+
+      <a
+        href="https://drive.google.com/file/d/1J2JLqx7uV7Qb-114IW1NGSwpQ9wTRRDj/view?usp=drive_link"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaFileAlt />
       </a>
     </div>
   );
