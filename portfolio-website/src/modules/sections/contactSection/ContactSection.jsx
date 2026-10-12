@@ -43,7 +43,7 @@ const ContactSection = () => {
       </a>
 
       <a
-        href="https://drive.google.com/file/d/1J2JLqx7uV7Qb-114IW1NGSwpQ9wTRRDj/view?usp=drive_link"
+        href="https://drive.google.com/file/d/1qfhcjs4M2hWTy4RsJkRufiuI3Vq_aynH/view?usp=drive_link"
         target="_blank"
         rel="noreferrer"
       >
